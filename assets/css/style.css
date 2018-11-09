@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(63, 31, 248);
+}
+h1 {
+    color: rgb(1, 61, 16)
+
+}
+.everything {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.topPiece {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+.bottomPiece {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+}
+.leftSide {
+    width: 15%;
+    height: 100%;
+}
+.centerSide {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+}
+.rightSide {
+    width: 15%;
+    height: 100%;
+}
+
+.anAnimal {
+    display: inline-block;
+    height: 50px;
+    width: 10%;
+    margin: .5%;
+    border-radius: 15px;
+    border: 3px rgb(5, 212, 57) solid;
+    background-color: rgb(69, 113, 245);
+    color: rgb(1, 61, 16)
+}
+button:hover {
+    background-color: rgb(5, 212, 57)
+}
+.aGif {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+.aDiv {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    margin: 5px;
+}
+.theRating {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(63, 31, 248);
+    color: rgb(5, 212, 57);
+    opacity: .7;
+    position: absolute;
+    bottom: -16px;
+}
+.newInput {
+    border: 2px solid rgb(5, 212, 57);
+    background-color: rgb(69, 113, 245);
+}
+.newGif {
+    border: 2px solid rgb(5, 212, 57);
+    background-color: rgb(69, 113, 245);
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+}
+h2 {
+    text-align: bottom;
+    color: rgb(5, 212, 57);
+}
