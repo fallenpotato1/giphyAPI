@@ -1,13 +1,13 @@
 var differentAnimals = ["Fish", "Iguanas", "Dogs", "Cats", "Scorpions", "Snakes", "Turtles", "Chameleons",
     "Sharks", "Alligators", "Sea Horses", "Horses"]
 
-$(".newGif").on("click", function() {
-    event.preventDefault()
-    var newTerm = $(".newInput").val()
-    var anotherButton = $("<button class='anAnimal'>" + newTerm + "</button>")
-    anotherButton.attr("data-name", newTerm)
-    $(".theTopCenter").append(anotherButton)
-})
+// $(".newGif").on("click", function() {
+//     event.preventDefault()
+//     var newTerm = $(".newInput").val()
+//     var anotherButton = $("<button class='anAnimal'>" + newTerm + "</button>")
+//     anotherButton.attr("data-name", newTerm)
+//     $(".theTopCenter").prepend(anotherButton)
+// })
 
 differentAnimals.forEach(function (anAnimal) {
     var newButton = $("<button class='anAnimal'>" + anAnimal + "</button>")
